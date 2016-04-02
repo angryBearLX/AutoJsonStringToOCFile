@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7C44A36CCC11295F1D86AD1F51EB0013695E115A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7C44A36CCC11295F1D86AD1F51EB0013695E115A" : 0,
+    "894AA3FFE8AA7A2AE6FAA99A4ADEA3A7BCE99F44" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0A00FF6-8CC1-46AB-ACC4-2E253BA66171",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7C44A36CCC11295F1D86AD1F51EB0013695E115A" : "JsonTransitionToFile_Demo\/",
+    "894AA3FFE8AA7A2AE6FAA99A4ADEA3A7BCE99F44" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JsonTransitionToFile_Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JsonTransitionToFile_Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/angryBearLX\/AutoJsonStringToOCFile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C44A36CCC11295F1D86AD1F51EB0013695E115A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/angryBearLX\/Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "894AA3FFE8AA7A2AE6FAA99A4ADEA3A7BCE99F44"
+    }
+  ]
+}
