@@ -85,8 +85,8 @@ static NSArray *openFiles()
     
     [self stringFromDictionary:obj className:_className];
     
-    
-    self.textView.string = _headerFileContent;
+    NSString *textContent = [NSString stringWithFormat:@"%@\n=======\n%@", _headerFileContent, _mFileContent];
+    self.textView.string = textContent;
 }
 
 - (void)stringFromDictionary:(NSDictionary *)dic className:(NSString *)className
@@ -160,7 +160,9 @@ static NSArray *openFiles()
     _pathURL = [urls lastObject];
     NSString *path = [_pathURL path];
     
-    _headerFileContent = self.textView.string;
+    NSArray *strings = [self.textView.string componentsSeparatedByString:@"======="];
+    _headerFileContent = [strings firstObject];
+    _mFileContent = [strings lastObject];
     if (_headerFileContent.length && _mFileContent.length) {
         NSFileManager *manager = [NSFileManager defaultManager];
         
